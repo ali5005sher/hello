@@ -1,0 +1,90 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.body form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 330px;
+    border: 1px solid #8a8a8a;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.body form .insta-text{
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.body form .facebook-button button{
+    width: 250px;
+    height: 36px;
+    border-radius: 8px;
+    background: #1877F2;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.body form .or-text{
+    color:#cfcfcf;
+    padding-bottom: 10px;
+
+}
+
+.body form input{
+    width: 245px;
+    height: 33px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 2px solid #E0DDDD;
+    background: rgba(232, 230, 230, 0.50);
+}
+.body form input:focus{
+    outline: none;
+}
+.body form .forget-text {
+    width: 100%;
+    text-align: end;
+    position: relative;
+    padding-bottom: 10px;
+}
+.body form .forget-text p {
+    font-size: 13px;
+    margin-right: 37px;
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    color: #1877F2;
+    cursor: pointer;
+}
+
+.body form .login-button input{
+    width: 250px;
+    height: 36px;
+    border-radius: 8px;
+    background: #1877F2;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.body form .sign-up-text p{
+    font-size: 14px;
+    color:#bfbfbf;
+
+
+}
+
+.body form .from-facebook-text{
+    text-align: center;
+}
+.body form .from-facebook-text p{
+    font-size: 14px;
+}
